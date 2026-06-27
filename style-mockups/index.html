@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TRACE — style mockups (internal draft)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,sans-serif;background:#0a1430;color:#fff;line-height:1.55;padding:80px 24px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:920px;margin:0 auto}
+  h1{font-size:34px;letter-spacing:-.02em}
+  .sub{color:#9aa6c8;margin:12px 0 44px;max-width:60ch}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  a.card{display:block;background:#111d42;border:1px solid #1d2950;border-radius:14px;padding:30px;color:#fff;text-decoration:none;transition:.15s}
+  a.card:hover{transform:translateY(-3px);border-color:#2f63ff}
+  .tagn{font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:#aebbe6}
+  .card h2{font-size:22px;margin:10px 0 8px;letter-spacing:-.01em}
+  .card p{color:#9aa6c8;font-size:14px}
+  .swatch{display:flex;gap:6px;margin-top:18px}
+  .swatch i{width:22px;height:22px;border-radius:6px;display:block}
+  @media(max-width:760px){.grid{grid-template-columns:1fr}}
+  footer{color:#5c6478;font-size:13px;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div style="display:inline-block;background:#2f63ff;color:#fff;font-size:12px;font-weight:600;letter-spacing:.05em;padding:6px 13px;border-radius:999px;margin-bottom:18px">INTERNAL DRAFT · NOT THE LIVE SITE</div>
+  <h1>TRACE — website style mockups</h1>
+  <p class="sub">Three directions for the same content, to look at side by side. Throwaway prototypes — layout and copy are illustrative, not final. Each keeps a blue identity per your note; they differ in warmth, density, and how editorial vs. structured they feel.</p>
+  <div class="grid">
+    <a class="card" href="mistral.html">
+      <div class="tagn">Direction A</div>
+      <h2>Mistral-ish</h2>
+      <p>Bold owned-blue, gradient, geometric type. Warm and confident with personality. The lead candidate.</p>
+      <div class="swatch"><i style="background:#2b34e0"></i><i style="background:#5b3df0"></i><i style="background:#19b6e6"></i><i style="background:#fbfaf6"></i></div>
+    </a>
+    <a class="card" href="anthropic.html">
+      <div class="tagn">Direction B</div>
+      <h2>Anthropic-ish</h2>
+      <p>Cream, serif headlines, muted-navy accent. Editorial, principled, text-forward. Warmer, quieter, more "essay".</p>
+      <div class="swatch"><i style="background:#f3efe6"></i><i style="background:#2f4a78"></i><i style="background:#1c1b18"></i><i style="background:#e3e7f0"></i></div>
+    </a>
+    <a class="card" href="scale.html">
+      <div class="tagn">Direction C</div>
+      <h2>Scale-ish</h2>
+      <p>Dark navy + electric blue, structured grid, stat strips. Credible and infrastructure-y. The most institutional.</p>
+      <div class="swatch"><i style="background:#0a1430"></i><i style="background:#2f63ff"></i><i style="background:#ffffff"></i><i style="background:#eaf0ff"></i></div>
+    </a>
+  </div>
+  <footer>Not linked from the live site. Drop or keep as you like.</footer>
+</div>
+</body>
+</html>
